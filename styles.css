@@ -1,0 +1,22 @@
+* {
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+.main-bg {
+	background: url(./images/bg-pattern-top.svg) 0px -500px no-repeat,
+		url(/images/bg-pattern-bottom.svg) 900px 500px no-repeat;
+}
+
+@media (max-width: 1500px) {
+	.main-bg {
+		background: url(/images/bg-pattern-top.svg) -200px -460px no-repeat,
+			url(/images/bg-pattern-bottom.svg) 600px 500px no-repeat;
+	}
+}
+
+@media (max-width: 1000px) {
+	.main-bg {
+		background: url(/images/bg-pattern-top.svg) -600px -500px no-repeat,
+			url(/images/bg-pattern-bottom.svg) 200px 500px no-repeat;
+	}
+}
